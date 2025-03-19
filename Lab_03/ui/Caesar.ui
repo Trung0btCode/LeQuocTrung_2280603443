@@ -68,7 +68,7 @@
      <string>CipherText</string>
     </property>
    </widget>
-   <widget class="QPlainTextEdit" name="txt_plain">
+   <widget class="QTextEdit" name="txt_plain">
     <property name="geometry">
      <rect>
       <x>250</x>
@@ -78,17 +78,17 @@
      </rect>
     </property>
    </widget>
-   <widget class="QPlainTextEdit" name="txt_key">
+   <widget class="QLineEdit" name="txt_key">
     <property name="geometry">
      <rect>
       <x>250</x>
       <y>230</y>
       <width>111</width>
-      <height>81</height>
+      <height>30</height>
      </rect>
     </property>
    </widget>
-   <widget class="QPlainTextEdit" name="txt_cipher">
+   <widget class="QTextEdit" name="txt_cipher">
     <property name="geometry">
      <rect>
       <x>250</x>
