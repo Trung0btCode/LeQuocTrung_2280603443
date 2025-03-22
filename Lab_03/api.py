@@ -9,7 +9,6 @@ rsa_cipher = RSACipher()
 @app.route('/api/rsa/generate_keys', methods=['GET'])
 def rsa_generate_keys():
     rsa_cipher.generate_keys()
-    rsa_cipher.save_keys()
     return jsonify({'message': 'Keys generated successfully'})
 
 @app.route('/api/rsa/encrypt', methods=["POST"])
